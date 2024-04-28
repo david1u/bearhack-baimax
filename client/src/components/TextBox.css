@@ -1,16 +1,17 @@
 .input-wrapper {
-    background-color: rgb(255, 255, 255);
-    width: 300%;
+    background-color: white;
+    max-width: 300%;
+    min-width: 400px;
     border-radius: 10px;
     height: 2.5rem;
     padding: 0 15px;
-    box-shadow: 0px 0px 8px #337a32;
+    box-shadow: 0px 0px 8px #b43030;
     display: flex;
     align-items: center;
 }
 
 input {
-    background-color: transparent;
+    background-color: white;
     border: none;
     height: 100%;
     font-size: 1.25rem;

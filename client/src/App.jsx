@@ -18,7 +18,7 @@ function App() {
     // setArray(response.data);
     const response = await axios.get(`http://localhost:8080/api/users?search=${input}`)
     console.log(response.data);
-    setArray(response.data.users);
+    // setArray(response.data.users);
   };
 
   useEffect(() => {
