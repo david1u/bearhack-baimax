@@ -23,3 +23,9 @@ B-AI-max is a medical assistant chatbot that will listen to a user's symptoms an
 3. Set Up Environment Variables: Create a .env file and add your OpenAI API key.
 
 ## Run in Terminal
+
+In your terminal, run
+   ```bash
+   python text.py
+   ```
+and follow the B-AI-max prompts.
