@@ -1,0 +1,30 @@
+.input-wrapper {
+    background-color: rgb(255, 255, 255);
+    width: 300%;
+    border-radius: 10px;
+    height: 2.5rem;
+    padding: 0 15px;
+    box-shadow: 0px 0px 8px #337a32;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-left: 10px;
+}
+::placeholder {
+    color: rgb(21, 18, 18);
+}
+
+#pencil-icon {
+    color: rgb(18, 18, 19);
+}
+
+input, select, textarea{
+    color: #000;
+}
